@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Element</title>
+    <style>
+        figure{
+            width: 100px;
+
+        }
+
+        section{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <p style="background-color:red;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, nostrum!</p> 
+    <!-- satiri tamamen kirmiziyla kapladigi icin blok elementir. -->
+
+    <div style="background-color:yellow ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, assumenda.</div>
+    <!-- bulundugu satiri hepsini kapliyor. Blok elementir -->
+
+    <span>Lorem ipsum dolor sit amet.</span> <a href="#"> Lorem, ipsum.</a>
+    <!-- inline elementlerdir iki ayri etiket olmasina ragmen yan yanda dururlar
+     -->
+
+     <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        </blockquote>
+        
+        <!-- alinti yapildigi zaman kullanilir -->
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
+          <!-- bir terimi aicklamak icin kullanilir  -->
+
+          <figure>
+            <img src="ev.jpeg" alt="Trulli" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+
+          <!-- resme sekil verir -->
+
+          <footer>
+            <p>Author: Hege Refsnes<br>
+            <a href="mailto:hege@example.com">hege@example.com</a></p>
+          </footer>
+          <!-- bir bilgi kullanimi icin -->
+          <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+          <!-- form doldurmak yeri acar -->
+
+          <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/python/">Python</a>
+            </nav>
+            <!-- birbirleriyle iliskili olanlari yan yanda toplar -->
+
+            <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, doloribus!</section>
+
+            <!-- icindeki yazilari secer -->
+
+            <pre>
+                Text in a pre element
+                is displayed in a fixed-width
+                font, and it preserves
+                both      spaces and
+                line breaks
+                </pre>
+
+                <!-- siir icin kullanilabilir  -->
+
+</body>
+</html>
